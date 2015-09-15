@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D1E18FC1BA86879005ED90E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E18FB1BA86879005ED90E /* AppDelegate.swift */; };
-		3D1E18FE1BA86879005ED90E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E18FD1BA86879005ED90E /* ViewController.swift */; };
+		3D1E18FE1BA86879005ED90E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E18FD1BA86879005ED90E /* CameraViewController.swift */; };
 		3D1E19011BA86879005ED90E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1E18FF1BA86879005ED90E /* Main.storyboard */; };
 		3D1E19031BA86879005ED90E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1E19021BA86879005ED90E /* Images.xcassets */; };
 		3D1E19061BA86879005ED90E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D1E19041BA86879005ED90E /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		3D1E18F61BA86879005ED90E /* CameraTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1E18FA1BA86879005ED90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D1E18FB1BA86879005ED90E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D1E18FD1BA86879005ED90E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D1E18FD1BA86879005ED90E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		3D1E19001BA86879005ED90E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D1E19021BA86879005ED90E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3D1E19051BA86879005ED90E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -77,11 +77,8 @@
 		3D1E18F81BA86879005ED90E /* CameraTask */ = {
 			isa = PBXGroup;
 			children = (
-				3D1E18FB1BA86879005ED90E /* AppDelegate.swift */,
-				3D1E18FD1BA86879005ED90E /* ViewController.swift */,
+				3D1E18FD1BA86879005ED90E /* CameraViewController.swift */,
 				3D1E18FF1BA86879005ED90E /* Main.storyboard */,
-				3D1E19021BA86879005ED90E /* Images.xcassets */,
-				3D1E19041BA86879005ED90E /* LaunchScreen.xib */,
 				3D1E18F91BA86879005ED90E /* Supporting Files */,
 			);
 			path = CameraTask;
@@ -90,6 +87,9 @@
 		3D1E18F91BA86879005ED90E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D1E18FB1BA86879005ED90E /* AppDelegate.swift */,
+				3D1E19041BA86879005ED90E /* LaunchScreen.xib */,
+				3D1E19021BA86879005ED90E /* Images.xcassets */,
 				3D1E18FA1BA86879005ED90E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D1E18FE1BA86879005ED90E /* ViewController.swift in Sources */,
+				3D1E18FE1BA86879005ED90E /* CameraViewController.swift in Sources */,
 				3D1E18FC1BA86879005ED90E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
