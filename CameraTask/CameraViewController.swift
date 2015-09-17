@@ -25,10 +25,15 @@ class CameraViewController: UIViewController {
     private func initializeCameraImageView(){
         captureSession = AVCaptureSession()
         captureSession!.sessionPreset = AVCaptureSessionPresetPhoto
-        var backCamera = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
-        var error: NSError?
-        var input = AVCaptureDeviceInput(device: backCamera, error: &error)
-        if error == nil && captureSession!.canAddInput(input) {
+        let backCamera = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
+        var input: AVCaptureDeviceInput!
+        do {
+            input = try AVCaptureDeviceInput(device: backCamera)
+        } catch let error as NSError {
+            print(error.localizedDescription)
+            return
+        }
+        if captureSession!.canAddInput(input) {
             captureSession!.addInput(input)
             
             stillImageOutput = AVCaptureStillImageOutput()

@@ -156,6 +156,8 @@
 		3D1E18EE1BA86879005ED90E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Alexey Tsymlov";
 				TargetAttributes = {
@@ -411,6 +413,7 @@
 				3D1E19171BA8687A005ED90E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D1E19181BA8687A005ED90E /* Build configuration list for PBXNativeTarget "CameraTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +422,7 @@
 				3D1E191A1BA8687A005ED90E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
